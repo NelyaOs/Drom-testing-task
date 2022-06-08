@@ -1,0 +1,1 @@
+Запуск тестов из ветки master доступен с версией node.js >= v14.8. Если версия node.js меньше, необходимо использовать ветку [old_node_version](https://github.com/NelyaOs/Drom-testing-task/tree/old_node_version)
