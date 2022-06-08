@@ -14,11 +14,7 @@ const capabilities = {
     automationName: "UiAutomator2"
 }
 
-async function main() {
-    const driver = await promiseChainRemote(connectOpts);
-    await driver.init(capabilities)
+const driver = await promiseChainRemote(connectOpts);
+await driver.init(capabilities)
 
-    return driver
-}
-
-export default main
+export default driver
