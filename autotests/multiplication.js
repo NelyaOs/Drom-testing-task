@@ -61,3 +61,10 @@ await mainPage.clickButton(mainPage.multiplicationButton)
 result = await mainPage.getResult()
 checkResult(result, 18.5)
 await mainPage.clickButton(mainPage.resetButton)
+
+// lots of decimal places
+await mainPage.inputValues(3.75, 5.325)
+await mainPage.clickButton(mainPage.multiplicationButton)
+result = await mainPage.getResult()
+checkResult(result, 19.96875)
+await mainPage.clickButton(mainPage.resetButton)
